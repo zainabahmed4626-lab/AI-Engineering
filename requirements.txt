@@ -1,0 +1,7 @@
+# Core deps for notebooks in ai_env/Ai_Engineering_Part1
+gradio[mcp]>=6.0
+openai>=1.0
+python-dotenv>=1.0
+requests>=2.28
+ipython
+jupyter

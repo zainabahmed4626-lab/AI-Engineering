@@ -1,0 +1,24 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environment (reinstall: pip install -r requirements.txt)
+ai_env/Lib/
+ai_env/Scripts/
+ai_env/share/
+ai_env/Include/
+ai_env/pyvenv.cfg
+
+# Gradio / local app data
+**/.gradio/
+
+# OS
+Thumbs.db
+.DS_Store
